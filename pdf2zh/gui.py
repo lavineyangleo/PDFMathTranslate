@@ -353,8 +353,8 @@ demo_recaptcha = """
 
 tech_details_string = f"""
                     <summary>Technical details</summary>
-                    - GitHub: <a href="https://github.com/Byaidu/PDFMathTranslate">Byaidu/PDFMathTranslate</a><br>
-                    - GUI by: <a href="https://github.com/reycn">Rongxin</a><br>
+                    - GitHub: <a href="https://github.com/lavineyangleo">PDF-TRANS</a><br>
+                    - GUI by: <a href="https://github.com/lavineyangleo">LaVineLeo</a><br>
                     - Version: {__version__}
                 """
 cancellation_event_map = {}
@@ -370,7 +370,7 @@ with gr.Blocks(
     head=demo_recaptcha if flag_demo else "",
 ) as demo:
     gr.Markdown(
-        "# [PDFMathTranslate @ GitHub](https://github.com/Byaidu/PDFMathTranslate)"
+        "# [PDF-Trans @ GitHub](https://github.com/lavineyangleo)"
     )
 
     with gr.Row():
